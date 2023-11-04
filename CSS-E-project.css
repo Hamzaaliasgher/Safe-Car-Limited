@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body
+	{
+		background-color:#FFFFFF;
+	}
+header
+	{
+		width:100%;
+		height:100px;
+		background-image:url(header%20bg.jpg);
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:100% 100%;
+		position:relative;
+	}
+
+
+#img1
+	{
+		width:80px;
+		height:70px;
+		margin-left:20px;
+		position:relative;
+	}
+.header-div
+	{
+		width:auto;
+		margin-left:300px;
+		margin-top:-45px;
+	}	
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 30px;
+  height:15px;
+  text-align: center;
+  text-decoration: none;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.navbar
+	{
+        margin-left:10px;
+		margin-right:10px;
+		top:-30px;
+    	background-color:#CCC;
+		border:#933 thin ridge;
+		box-shadow:5px 8px 5px #99CC66;
+		position:relative;
+		height:50px;
+	}
+
+.container-header{
+    line-height: 1.22;
+}
+#social_icons {
+    padding: .5em;
+    display: inline-block;
+}
+div.c1
+{
+	background-color:#396;
+	border:thin solid #396;
+	margin-top:10px;
+	
+	margin-left:20px;
+}
+.div1
+	{width:33%; 
+	height:90%; 
+	padding-top:10px; 
+	padding-left:100px;
+	border-left:medium dashed #000000;
+	}
+div.ftdiv
+	{
+		width:100%;
+		background-color:#030;
+		border:thin solid #030;
+		padding-left:50px;
+		padding-top:50px;
+	}
+
+#side-div
+	{
+		width:250px;
+		height:500px;
+		position:relative;
+		left:;
+		border:thin groove #000;
+		box-shadow:#CCC 5px 10px 5px;
+		border-radius:10px;
+		
+	}
+
+
+.img2
+	{
+		width:800px;
+		height:40px;
+		border-radius:10px;
+		padding-top:20px;
+	}
+
+
+
+#d2a
+	{
+		width:100%;
+		height:850px;
+		animation: infinite 6s ease bg;
+	}
+@keyframes bg
+{
+	0%{background-image:url(hame-above-div-bg.jpg); background-repeat:no-repeat; background-size:100% 100%;}
+	20%{background-image:url(hame-above-div-bg3.jpg); background-repeat:no-repeat; background-size:100% 100%;}
+	40%{background-image:url(home-insurance-bg2.jpg); background-repeat:no-repeat; background-size:100% 100%;}
+	60%{background-image:url(home-insurance-bg4.jpg); background-repeat:no-repeat; background-size:100% 100%;}
+	80%{background-image:url(home-insurance-bg5.jpg); background-repeat:no-repeat; background-size:100% 100%;}
+	100%{background-image:url(home-bg-6.jpg); background-repeat:no-repeat; background-size:100% 100%;}
+}
+#div13
+{
+	width:auto;
+	height:auto;
+	position:relative;
+	margin-left:500px;
+}
+.theme
+{
+	color:#0C6;
+	font-style:italic;
+	margin-top:10px;
+}
+#types-insurance
+	{
+		font-family:"Lucida Console", Monaco, monospace;
+		border-top:thick groove #6F9;
+		border-left:thick groove #6F9;
+		margin-left:30px;
+		font-size:40px;
+		color:#030;
+	}
+#d1
+	{
+		width:300px;
+		height:280px;
+		border-radius:10px;
+		border:thin solid #000;
+		float:left;
+		position:relative;
+		margin-top:20px;
+		margin-left:80px;
+		z-index:1;
+		background-image:url(third%201.png); 
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+	}
+
+#d1a
+	{
+		width:300px;
+		height:280px;
+		border-radius:10px;
+		border:thin solid #000;
+		float:left;
+		position:relative;
+		margin-top:20px;
+		margin-left:80px;
+		z-index:1;
+		background-image:url(3t.jpg); 
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+	}
+#d5
+	{
+		width:800px;
+		height:320px;
+		border-radius:10px;
+		border:thin solid #000;
+		position:relative;
+		margin-left:350px;
+		background-image: linear-gradient(to right, #693 , #6C6);
+		padding-left:35px;
+		padding-top:30px;
+	}
+#d6
+	{
+		width:800px;
+		height:320px;
+		border-radius:10px;
+		border:thin solid #000;
+		position:relative;
+		margin-left:60px;
+		float:left;
+		background-image: linear-gradient(to right, #6C6, #693);
+		padding-left:10px;
+		padding-right:20px;
+		padding-top:30px;
+	}
+#d7
+	{
+		width:300px;
+		height:280px;
+		border-radius:10px;
+		border:thin solid #000;
+		margin-top:20px;
+		margin-left:850px;
+		position:relative;
+		z-index:1;
+		background-image:url(comp-1.jpg); 
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+	}
+
+
+#d10
+	{
+		width:350px;
+		height:150px;
+		border-radius:10px;
+		background-image: linear-gradient(to right, #0C9 ,#0F9);
+		margin-top:0px;
+		padding-top:30PX;
+		padding-left:30px;
+	}
+.cards
+	{
+		margin-left:10px;
+		width:400px;
+		height:325px;
+		border:thick double #000000;
+		box-shadow:7px 10px 7px #999999;
+	}
+#a1
+	{
+		color:#333;
+    	background-color:#CCCCCC;
+		opacity:0.4;
+    	width:12px;
+    	height:12px;
+    	display:inline-block;
+    	border-radius:100%;
+    	font-size:10px;
+    	text-align:center;
+    	text-decoration:none;
+    	-webkit-box-shadow: inset -1px -1px 1px 0px rgba(0,0,0,0.25);
+    	-moz-box-shadow: inset -1px -1px 1px 0px rgba(0,0,0,0.25);
+    	box-shadow: inset -1px -1px 1px 0px rgba(0,0,0,0.25);
+	}
+.text
+	{
+		font-size:25px;
+		font-family:"Comic Sans MS", cursive;
+	}
+#d3
+	{
+		border:thin solid white;
+		background-image:linear-gradient(to right, #393 ,#3C9, #FFF);
+	}
+div.d3a
+	{
+		width:1000px;
+		height:50px;
+		margin-top:-20px;
+	}
+#d4	
+	{
+		width:800px;
+		height:500px;
+		position:relative;
+		border:thin groove #000;
+		box-shadow:#CCC 5px 10px 5px;
+		border-radius:10px;
+		margin-left:150px;
+		border-radius:10px;
+	}
+#d4a
+	{
+		width:100%;
+		height:100%;
+		position:relative;
+		border-radius:10px;
+	}
+div.d4b
+{
+	 border:thin solid white;
+	height:500px;
+}
+.li1 
+	{
+		color:#090;
+		text-decoration:none;
+		font-size: 20px;
+		font-family: Verdana, Geneva, sans-serif;
+		border-bottom: #000 1px solid;
+		list-style-type: none;
+		text-align:left;
+		padding:40px;
+	}
+.li2 
+	{
+		color:#090;
+		text-decoration:none;
+		font-size: 20px;
+		font-family: Verdana, Geneva, sans-serif;
+		border-bottom: #000 1px solid;
+		list-style-type: none;
+		text-align:center;
+		padding:20px;
+		padding-top:30px;
+	}
+.iframe
+	{
+		width:100%;
+		height:500px;
+	}
+	
+
+<!--------------------------------------------------company-insurance-formatting------------------------------------------>
+
+.h1
+	{
+		color:#603;
+		font-style:italic;
+	}
+.d5
+	{
+		width:800px;
+		height:50px;
+		margin-left:120px;
+		margin-top:-20px;
+		position:relative;
+	}
+.d6
+	{
+		width:100%;
+		height:100%;
+		position:relative;
+		border-radius:10px;
+	}
+.d7	
+	{
+		width:800px;
+		height:800px;
+		position:relative;
+		margin-left:120px;
+		border-radius:10px;
+	}
+.img3
+	{
+		margin-left:20px;
+		width:100px;
+		height:50px;
+		opacity:0.3;
+	}
+.img3:hover
+	{
+		opacity:1;
+	}
+#img2
+{
+	width:800px;
+	height:400px;
+}
+#third-p
+{
+	color:#093;
+	font-size:20px;
+	text-align:left;
+}
+#img4
+{
+	width:200px;
+	height:140px;
+	float:left;
+}
+#company-p
+{
+	color:#063;
+	font-size:20px;
+	text-align:center;
+	margin-top:30px;
+	margin-left:10px;
+}
+p.p1
+{
+	color:#093;
+	margin-top:30px;
+	font-size:25px;
+	text-align:left;
+}
+#div12
+	{
+		width:100px;
+		height:100%;
+		float:left;
+	}
+#img5
+	{
+		width:80px;
+		height:100px;
+	}
+#d4c2
+	{
+		width:800px;
+		height:100%;
+		margin-left:30px;
+	}
+#h31
+	{
+		color:#093;
+		margin-left:0px;
+	}
+
+
+div.caro1
+{
+	width:800px;
+	height:100%;
+	border-radius:10px;
+}
+
+.img4
+{
+	width:800px;
+	height:300px;
+	border-radius:10px;
+}
+div.ch
+{
+	background-image:url(card%20header.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+div.cb
+{
+	background-color:#D0FDEE;
+}
+#ft
+{
+	
+	border-bottom:thin solid #030;
+	border-top:thin solid #030;
+	border-left:thin solid black;
+	border-right:thin solid black;
+}
